@@ -18,7 +18,7 @@ numbers.forEach((angka)=>{
 	//console.log(angka)
 })
 
-const layarKalkulator = document.querySelector('.layar-kalkulator')
+const layarKalkulator = document.querySelector('.calculator-screen')
 
 const updateLayar = (angka) => {
 	layarKalkulator.value = angka
